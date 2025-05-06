@@ -29,7 +29,7 @@ Linux/
 For the fastest installation on Kali Linux, you can use our one-command installer that will clone the repository and automatically install BreachKit:
 
 ```bash
-curl -sSL https://github.com/bl1ndes/breachkit/main/install_breachkit.sh | sudo bash
+curl -sSL https://github.com/bl1ndes/breachkit/blob/main/install_breachkit.sh | sudo bash
 ```
 
 Or if you've already cloned the repository:

@@ -10,17 +10,11 @@ echo "=====================================================
 # Make the auto-installer executable
 chmod +x auto_install.sh
 
-# Ask user if they want to run the auto-installer now
+# Automatically run the auto installer
 echo "[*] Repository successfully cloned!"
-read -p "[?] Would you like to run the auto-installer now? (y/n): " choice
 
-if [ "$choice" = "y" ] || [ "$choice" = "Y" ]; then
-    echo "[*] Running auto-installer..."
-    ./auto_install.sh
-else
-    echo "[*] You can run the auto-installer later with:"
-    echo "    ./auto_install.sh"
-fi
+echo "[*] Running auto-installer..."
+./auto_install.sh
 
 # Add a Git post-merge hook to suggest running the auto-installer after pulls
 if [ -d ".git" ]; then

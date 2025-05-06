@@ -14,7 +14,6 @@ breachkit/
 ├── cli.py              # Command-line interface
 ├── main.py             # Core functionality
 ├── menu.py             # Menu-driven interface
-├── common/             # Common utilities and shared code
 ├── Linux/              # Linux-specific implementation
 │   ├── install.sh      # Linux installation script
 │   ├── auto_install.sh # Automatic installation script

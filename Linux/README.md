@@ -24,19 +24,21 @@ Linux/
 
 ### Automatic Installation
 
-The easiest way to install BreachKit is to use the automatic installer:
+## One-Command Installation for Kali Linux
 
-1. Make the installation script executable:
-   ```bash
-chmod +x auto_install.sh
+For the fastest installation on Kali Linux, you can use our one-command installer that will clone the repository and automatically install BreachKit:
+
+```bash
+curl -sSL https://github.com/bl1ndes/breachkit/main/install_breachkit.sh | sudo bash
 ```
 
-2. Run the installation script with root privileges:
-   ```bash
-sudo ./auto_install.sh
+Or if you've already cloned the repository:
+
+```bash
+sudo ./install_breachkit.sh
 ```
 
-This will install BreachKit and all its dependencies, and create a system-wide executable.
+This will automatically install all dependencies and make BreachKit available system-wide.
 
 ## Usage
 

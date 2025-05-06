@@ -43,7 +43,7 @@ Please navigate to the appropriate directory for your operating system and follo
 For the fastest installation on Kali Linux, you can use our one-command installer that will clone the repository and automatically install BreachKit:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/username/breachkit/main/install_breachkit.sh | sudo bash
+curl -sSL https://github.com/bl1ndes/breachkit/install_breachkit.sh | sudo bash
 ```
 
 Or if you've already cloned the repository:
